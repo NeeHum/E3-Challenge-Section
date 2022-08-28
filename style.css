@@ -53,70 +53,188 @@ a:active {
     color: rgb(24, 126, 241)
 }
 
-/* hero */
+/* main */
 
-.section-first {
-    background-color: #200338;
-    margin: 100px 100px;
-    padding: 60px 40px;
+main{
+    padding-top: 90px;
     display: flex;
-    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-h1 {
-    font-size: 30px;
-    width: 50%;
-    font-family: 'Rubik Dirt', cursive;
-    font-weight: 2;
-    background: linear-gradient(rgba(0, 121, 255, 1) 0%, rgba(235, 0, 255, 1) 100%);
-    -webkit-background-clip: text;
-    color: transparent;
+#hero{
+    display: flex;
+    padding: 20px, 0px;
+    width: 90%;
+    justify-content: space-around;
 }
 
-.section-first p {
-    width: 60%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    color: #c457d3;
-    font-family: 'Libre Franklin', sans-serif;
+.divh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
 }
 
-.contact,
-.info {
-    margin-left: 30px;
-    width: 120px;
-    height: 35px;
-    border-radius: 20px;
-    font-family: 'Libre Franklin', sans-serif;
-    border: #d400ff 1PX solid;
-    background-color: black;
-    color: #d400ff;
-}
-
-button:hover {
+.divh h1{
+    font-weight: 700;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
     color: white;
 }
 
-button:active {
-    color: #512bfa;
+.divh p{
+    font-weight: 300;
+    font-size: 14px;
+    max-width: 350px;
+    color: white;
 }
 
-.article-img {
+.divb{
     display: flex;
-    height: 250px;
-    padding: 20px;
+    gap: 20px;
+}
+
+.divb a{
+    max-width: 100px;
+    max-height: 40px;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 28px;
+    padding: 8px 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.contrat{
+    background-color: black;
+    color: white;
+}
+
+.vmore {
+    background-color: white;
+    color: black;
+}
+
+.divi {
+    display: flex;
+    max-width: 1000px;
+    padding: 0px;
     margin: 20px;
+    border: 1px solid white;
 }
 
-.section-second {
-    background-color: #200338;
-    margin: 100px 100px;
-    padding: 60px 40px;
+.section-second{
     display: flex;
-    border-radius: 20px;
+    padding: 20px, 0px;
+    width: 90%;
+    justify-content: space-around;
 }
 
-.section-second p {
-    color: #ffffff;
-    font-family: 'Libre Franklin', sans-serif;
+.section-second p{
+    display: flex;
+    padding: 50px;
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 1500px;
+    color: white;
+}
+
+/* cards */ 
+
+
+
+.t-s {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.t-s h2{
+    font-size: 40px;
+    color: white;
+}
+
+.t-s h3{
+    color: white;
+    padding: 30px;
+}
+
+.cards3 {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.card1 img{
+    padding: 10px;
+    max-width: 70px;
+    
+}
+
+.card1 h3, p{
+    color: white;
+    padding: 20px;
+}
+
+.card1 p{
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgb(54, 52, 52);
+}
+
+.secfooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.divfooter1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divinfo {
+    display: flex;
+    color: white;
+    padding: 50px;
+    gap: 50px;
+}
+
+.divfooter1 h2{
+    color: blue;
+}
+
+.divfooter2 img {
+    max-width: 400px;
+}
+
+.logofooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imglogofooter {
+    max-width: 50px;
 }
